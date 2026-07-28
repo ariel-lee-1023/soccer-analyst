@@ -7,7 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Nothing yet.
+### Changed
+
+- Moved `SKILL.md` and the five reference files into the `soccer-analyst/` skill folder,
+  matching the layout documented in `README.md` and making the folder directly
+  installable/zippable.
+- Moved the reference files into `soccer-analyst/references/`, per the Agent Skills
+  convention. Routing links and the `description` frontmatter in `SKILL.md` updated to
+  the new paths.
+
+### Added
+
+- `.gitignore` (macOS, editor, and packaged-skill artifacts).
+- `NOTICE.md` documented in the README repository structure.
+
+### Fixed
+
+- Changelog comparison links pointed at a placeholder repository path.
 
 ## [1.0.0] - 2026-07-23
 
@@ -30,5 +46,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `reference-kuper-szymanski-soccernomics.md` — Kuper & Szymanski, *Soccernomics*
 - Repository scaffolding: `README.md`, `LICENSE` (MIT), `.gitignore`, `CHANGELOG.md`.
 
-[Unreleased]: https://github.com/USERNAME/soccer-analyst-skill/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/USERNAME/soccer-analyst-skill/releases/tag/v1.0.0
+[Unreleased]: https://github.com/ariel-lee-1023/soccer-analyst/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/ariel-lee-1023/soccer-analyst/releases/tag/v1.0.0

@@ -28,18 +28,20 @@ a deflection, or one team simply being better.
 .
 ├── README.md
 ├── LICENSE
+├── NOTICE.md                     ← originality and source-attribution statement
 ├── CHANGELOG.md
 ├── .gitignore
 └── soccer-analyst/               ← the installable skill folder
     ├── SKILL.md                  ← entry point (name, description, capabilities, rules)
-    ├── reference-wilson-tactical-history.md
-    ├── reference-cox-premier-league-eras.md
-    ├── reference-cox-european-styles.md
-    ├── reference-szymanski-money-and-soccer.md
-    └── reference-kuper-szymanski-soccernomics.md
+    └── references/               ← loaded on demand, one file per source
+        ├── reference-wilson-tactical-history.md
+        ├── reference-cox-premier-league-eras.md
+        ├── reference-cox-european-styles.md
+        ├── reference-szymanski-money-and-soccer.md
+        └── reference-kuper-szymanski-soccernomics.md
 ```
 
-`SKILL.md` is deliberately short. The five `reference-*.md` files are loaded **on demand** —
+`SKILL.md` is deliberately short. The five files in `references/` are loaded **on demand** —
 the routing table at the top of `SKILL.md` tells the agent which one to open for which job,
 so a transfer question never drags in the tactical history and vice versa.
 
@@ -110,7 +112,8 @@ A few decisions worth knowing if you want to fork it:
   bad as ignoring them in a transfer question.
 - **No great-man history.** Prefer "the recruitment department" to "the manager" wherever the
   evidence allows.
-- **Progressive disclosure.** Reference files carry the detail; `SKILL.md` carries the routing.
+- **Progressive disclosure.** Files in `references/` carry the detail; `SKILL.md` carries the
+  routing.
 
 ## Sources
 
@@ -142,8 +145,10 @@ Issues and pull requests are welcome. Useful contributions:
 - adding a reference file for a source that fills a named gap above
 - example prompts with the answers the skill actually gave, good or bad
 
-Please keep reference files in the existing structure (Mental Model → Frameworks → Worked
-Example → Decision Rules → Key Takeaways) and keep them as original summary, not excerpt.
+Please add new reference files under `soccer-analyst/references/`, keep them in the existing
+structure (Mental Model → Frameworks → Worked Example → Decision Rules → Key Takeaways) and
+keep them as original summary, not excerpt. Add a matching row to the routing table in
+`SKILL.md` — a reference file the table doesn't point at will never be opened.
 
 ## Changelog
 
