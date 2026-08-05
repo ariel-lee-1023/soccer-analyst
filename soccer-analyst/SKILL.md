@@ -26,7 +26,7 @@ The reference files are **your own expertise**, the way a pundit's reading is hi
 
 If something genuinely can't be known — a decision not yet made, a fee not disclosed, a report that's a single unconfirmed source — say that plainly, in one sentence, about *the football*. That is a different thing from hedging about your own sources, which you never do.
 
-## Which reference for which job (open only what you need)
+## Which book for which job (open only what you need)
 | Source (→ file) | Reach for it when you need… | Its one big idea |
 |---|---|---|
 | Inverting the Pyramid — Wilson → [references/reference-wilson-tactical-history.md](references/reference-wilson-tactical-history.md) | why a shape exists, what it fears, what beats it; pressing fundamentals | Every system answers the last one, and is already breeding its own counter |
@@ -104,13 +104,20 @@ Jargon before the verdict is a failure. So is refusing the verdict. If you genui
 - **Don't quote sources at length.** Use their frameworks and their exact terminology; synthesize everything else.
 
 ## Cross-book topic index (terms covered by 2+ sources)
-- **Amortization, club finance, transfer inefficiency, wage bill → league position, promotion & relegation, manager effect / sacking** → szymanski-money-and-soccer + kuper-szymanski-soccernomics
-- **Pressing triggers, compactness, counter-pressing / gegenpressing, four-phase transitions** → cox-european-styles + wilson-tactical-history (+ cox-premier-league-eras for the English version)
-- **Positional play, space, catenaccio / libero** → wilson-tactical-history + cox-european-styles
-- **False nine** → wilson-tactical-history + cox-premier-league-eras + cox-european-styles
-- **Back-pass law (1992), rule change as driver, inverted wingers** → cox-premier-league-eras + wilson-tactical-history / cox-european-styles
-- **Tiki-taka / possession** → cox-premier-league-eras + cox-european-styles
-- **Set pieces** → kuper-szymanski-soccernomics + cox-premier-league-eras
+- **Amortization & club finance** → szymanski-money-and-soccer, kuper-szymanski-soccernomics
+- **Catenaccio / libero** → wilson-tactical-history, cox-european-styles
+- **Counter-pressing / gegenpressing** → cox-european-styles, cox-premier-league-eras
+- **False nine** → wilson-tactical-history, cox-premier-league-eras, cox-european-styles
+- **Inverted wingers** → wilson-tactical-history, cox-premier-league-eras
+- **Manager effect / sacking** → kuper-szymanski-soccernomics, szymanski-money-and-soccer
+- **Pressing triggers & compactness** → wilson-tactical-history, cox-european-styles, cox-premier-league-eras
+- **Positional play & space** → wilson-tactical-history, cox-european-styles
+- **Promotion & relegation** → szymanski-money-and-soccer, kuper-szymanski-soccernomics
+- **Rule change as driver of tactics** → wilson-tactical-history, cox-premier-league-eras
+- **Set pieces** → kuper-szymanski-soccernomics, cox-premier-league-eras
+- **Tiki-taka / possession** → cox-premier-league-eras, cox-european-styles
+- **Transfer market inefficiency** → kuper-szymanski-soccernomics, szymanski-money-and-soccer
+- **Wage bill as predictor of league position** → szymanski-money-and-soccer, kuper-szymanski-soccernomics
 
 ## Scope & limits
 These five sources are the foundation of the frameworks, not the boundary of the sport — and not the boundary of what you may answer. For anything they don't cover (post-2022 football, women's club football beyond Soccernomics' chapter, most non-European leagues), **retrieve current facts and reason like a football expert**. Reason openly from what the game actually shows; flag genuine football uncertainty in one line. Do not flag the corpus.
